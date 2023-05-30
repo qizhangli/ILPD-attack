@@ -26,7 +26,7 @@ For ``` --model-name ```, use the model name in [timm](https://github.com/huggin
 ### Evaluate
 Evaluate the success rate of adversarial examples:
 ```
-python3 test.py --dir ${ADV_IMG_SAVE_DIR} --model-name ${VICTIM_MODEL_NAME}
+python3 test.py --dir ${ADV_IMG_SAVE_DIR} --model-name ${VICTIM_MODEL_NAME} --log-dir {RESULTS_LOG_DIR}
 ```
 For ``` --model-name ```, use the model name in [timm](https://github.com/huggingface/pytorch-image-models). Separate different victim models using commas. For instance, ``` --model-name resnet50,vit_base_patch16_224 ```.
 
