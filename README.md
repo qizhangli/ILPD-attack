@@ -1,5 +1,5 @@
 # ILPD-attack
-Code for our paper [Improving Adversarial Transferability via Intermediate-level Perturbation Decay](https://arxiv.org/abs/2304.13410).
+Code for our NeurIPS 2023 paper [Improving Adversarial Transferability via Intermediate-level Perturbation Decay](https://arxiv.org/abs/2304.13410).
 
 ## Requirements
 * Python 3.8.8
@@ -39,10 +39,10 @@ The following resources are very helpful for our work:
 Please cite our work in your publications if it helps your research:
 
 ```
-@article{li2023improving,
+@inproceedings{li2023improving,
   title={Improving Adversarial Transferability via Intermediate-level Perturbation Decay},
   author={Li, Qizhang and Guo, Yiwen and Zuo, Wangmeng and Chen, Hao},
-  journal={arXiv preprint arXiv:2304.13410},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
   year={2023}
 }
 ```
